@@ -1,0 +1,28 @@
+# Secrets
+.env
+*.env
+config/.env
+!.env.example
+!config/.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Runtime artifacts
+logs/
+docs/
+
+# Local project notes
+CONTEXT.md
+
+# OS / editor noise
+.DS_Store
+.idea/
+.vscode/
